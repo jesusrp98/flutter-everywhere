@@ -1,4 +1,4 @@
-# web
+# flutter_everywhere
 
 A new Flutter project.
 

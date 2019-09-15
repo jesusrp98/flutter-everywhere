@@ -1,4 +1,4 @@
-package com.example.web
+package com.example.flutter_everywhere
 
 import android.os.Bundle
 
