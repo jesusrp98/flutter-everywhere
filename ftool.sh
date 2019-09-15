@@ -29,9 +29,11 @@ if [ "$#" -eq 2 ]; then
     if [ $MODE == "run" ]; then
         # Right now, Flutter only supports running apps in Chrome :/
         if [ $PLATFORM == "linux" ] || [ $PLATFORM == "macos" ] || [ $PLATFORM == "windows" ]; then
-            flutter run -d chrome -t lib/desktop.dart
+            flutter run -d $PLATFORM -t lib/desktop.dart
+        elif [ $PLATFORM == "web" ]; then
+            flutter run -d chrome
         else
-            flutter run -d $PLATFORM
+            flutter run $PLATFORM
         fi
     else
         flutter build $PLATFORM
