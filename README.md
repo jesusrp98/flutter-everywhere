@@ -1,5 +1,8 @@
 
-# Flutter Everywhere
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" width="200">
+</p>
+<h1 align="center">Flutter Everywhere!</h2>
 
 This Flutter projects acts as a boilerplate to create true universal apps from a single codebase.
 
