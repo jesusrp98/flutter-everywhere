@@ -1,5 +1,5 @@
 name: flutter_everywhere
-description: An example project for flutter-desktop-embedding.
+description: Run Flutter apps from desktop to web, using a single codebase
 
 version: 0.1.0
 
