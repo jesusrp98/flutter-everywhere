@@ -1,6 +1,0 @@
-# Generated code do not commit.
-export FLUTTER_ROOT=/home/jesus/.flutter-sdk
-export BUILD=debug
-export TRACK_WIDGET_CREATION=false
-export FLUTTER_TARGET=/home/jesus/Documents/flutter-desktop-embedding/example/lib/main.dart
-export PROJECT_DIR=/home/jesus/Documents/flutter-desktop-embedding/example
