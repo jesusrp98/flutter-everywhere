@@ -9,18 +9,21 @@ Currently, the Flutter frameworks supports these platforms:
 * Windows
 * macOS
 * GNU+Linux
-* Web
+* Web (Chrome only)
 
 ## Getting started
 
-In order to facilitate building & deployment of Flutter apps to multiple platforms, I've included a program, called `ftool.sh`, which is included in the root folder of this project. It will run in any UNIX-based system.
+In order to build & deploy apps to specific, just run:
 
-To use this tool just simply write:
 ```
-./ftool MODE PLATFORM
+$ flutter build android|ios|windows|macos|linux|web
 ```
-* The parameter `MODE` is the intended running mode, in this case it'd be `run` or `build`.
-* Lastly, the parameter `PLATFORM` indicates the desired platform to deploy the Flutter app.
+
+If want you really want is to test the app, first run `flutter devices` to check connected devices. Then, you'll have to run:
+
+```
+$ flutter run -d DEVICE
+```
 
 ## Download & install
 First, clone the repository with the 'clone' command, or just download the zip.
@@ -42,7 +45,8 @@ There you go, you can now open & edit the project. Enjoy!
 
 
 ## Authors
-* **Jesús Rodríguez**: [GitHub](https://github.com/jesusrp98), [Twitter](https://twitter.com/jesusrp98) & [Reddit](https://www.reddit.com/user/jesusrp98).
+* **Jesús Rodríguez**: [GitHub](https://github.com/jesusrp98) & [Twitter](https://twitter.com/jesusrp98).
+* **Rody Davis**: [GitHub](https://github.com/AppleEducate) & [Twitter](https://twitter.com/rodydavis).
 
 ## Contributing
 If you want to take the time to make this project better, please read the [contributing guides](https://github.com/jesusrp98/flutter-everywhere/blob/master/CONTRIBUTING.md) first. Then, you can open an new [issue](https://github.com/jesusrp98/flutter-everywhere/issues/new/choose), of a [pull request](https://github.com/jesusrp98/flutter-everywhere/compare).
