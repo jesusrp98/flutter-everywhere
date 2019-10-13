@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
+import 'pages/home.dart';
 import 'plugins/desktop/desktop.dart';
-import 'view.dart';
 
 void main() {
+  // Stablishes target platform if neccessary (desktop only)
   setTargetPlatform();
+
   runApp(MyApp());
 }
 
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Everywhere',
-      home: MyHomePage(),
+      home: HomePage(),
     );
   }
 }
